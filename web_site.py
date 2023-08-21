@@ -10,9 +10,6 @@ class Web_site:
 
     def open_website(self):
         url = "https://shop.foodsoul.pro/"
-        # options = webdriver.ChromeOptions()
-        # options.add_argument("--headless")
-        # driver = webdriver.Chrome(options=options)
         command = commands.Commands(self.driver)
         try:
             self.driver.maximize_window()
